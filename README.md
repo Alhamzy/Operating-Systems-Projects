@@ -1,10 +1,10 @@
 # Operating-Systems-Projects
-Collection of compeleted operating systems projects. Under the supervision of Dr Wanwan Li of University of South Florida.
++ Collection of compeleted operating systems projects. Under the supervision of Dr Wanwan Li of University of South Florida.
 
 -------------------------
 # Fields Covered
-CPU Virtualization
-Process API in UNIX
++ CPU Virtualization
++ Process API in UNIX
 
 # Program Specifications
 ## p1:
@@ -20,7 +20,7 @@ gcc -o p1.out problem1.c
 ```
 ### Run:
 ```
-./p1.out <insert_command_name_here> <insert_command_paramters_here>.
+./p1.out <insert_command_name_here> <insert_command_paramters_here>
 ```
 ### Input example:
 ```
