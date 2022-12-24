@@ -150,7 +150,7 @@ gcc -o <executable_file_name> <c_file_name>
 ```
 ----------------------------------------
 #### Run mytail
-*Print last # lines from buttom of a file*
+*Print last # lines from bottom (end) of file*
 ```
 ./mytail <number-of-last-lines-from-bottom> <filename>
 ```
