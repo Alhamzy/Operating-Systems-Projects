@@ -83,11 +83,11 @@ readers_writers.h
 scenarios.txt
 Makefile   <-optional to comp. & run w/make
 #### Compile
-##### w/make:
+##### With make
 ```
 make
 ```
-##### w.o/make
+##### Without make
 ```
 gcc -o rwmain main.c reader_writer.c
 ```
