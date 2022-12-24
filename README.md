@@ -14,11 +14,11 @@ The program uses 'fork()' to create processes and 'exec()' to assign the newly c
 
 ## How to compile and run on Command Line Interface  
 ### p1:
-#### Compile:
+#### Compile
 ```
 gcc -o p1.out problem1.c
 ```
-#### Run:
+#### Run
 ```
 ./p1.out <insert_command_name_here> <insert_command_paramters_here>
 ```
@@ -32,7 +32,7 @@ gcc -o p1.out problem1.c
 ```
 gcc -o p2.out problem2.c
 ```
-#### Run:
+#### Run
 ```
 ./p2.out <insert_first_command_here> "|" <insert_second_command_here> 
 ```
@@ -40,5 +40,59 @@ gcc -o p2.out problem2.c
 ```
 ./p2.out ls "|" wc
 ```
+
+# Project 2
+## Fields Covered
++ Paging
++ Least Recently Used Algorithm
++ Memeory Management
+
+## Program Specifications
+In the LRU algorithm, the page being replaced from memory during a page fault is the one that
+has been least recently used. And the page table stores frames based on how recently they
+have been referenced or used. In the case of my implementation, the most recent pages are
+pushed to the front of the page table (cache).
+- Comments throughout the code explain the through process behind the approach.
+
+## How to compile and run on Command Line Interface  
+#### Compile
+```
+g++ lru.cpp -o lru
+```
+#### Run
+```
+./lru <tracefile_name> <number of frames> <mode>
+```
+#### Input example:
+```
+./lru bzip.trace 64 debug
+```
+
+# Project 3
+## Fields Covered
+
+## Program Specifications
+
+## How to compile and run on Command Line Interface  
+**Files that need to be in the directory before compiling**
+main.c
+readers_writers.c
+readers_writers.h
+scenarios.txt
+Makefile   <-optional to comp. & run w/make
+#### Compile
+##### w/make:
+```
+make
+```
+##### w.o/make
+```
+gcc -o rwmain main.c reader_writer.c
+```
+#### Run
+```
+./rwmain
+```
+
 
 
