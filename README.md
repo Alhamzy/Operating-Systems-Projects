@@ -125,7 +125,7 @@ gcc -o mystat.c mystat-Mohamed.c
 ```
 ----------------------------------------
 #### Run mystat
-****show stats of directory or file****
+*show stats of directory or file*
 ```
 ./mystat <directory_or_file_name>
 ```
