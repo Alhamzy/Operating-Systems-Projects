@@ -15,7 +15,7 @@ The program uses 'fork()' to create processes and 'exec()' to assign the newly c
 # How to compile and run on Command Line Interface  
 ## p1:
 ### Compile:
-'''
+```
 gcc -o p1.out problem1.c
 '''
 ### Run:
