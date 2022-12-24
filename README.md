@@ -1,8 +1,9 @@
 # Operating-Systems-Projects
-+ Collection of compeleted operating systems projects. Under the supervision of Dr Wanwan Li of University of South Florida.
++ Collection of compeleted operating systems projects. Under the supervision of Dr Wanwan Li of University of South Florida. Covering major operating systems topics such as:
+- CPU Virtualization, Paging, Conurrency, Persistance, etc.
 
 # Project 1
-## Fields Covered
+## Topics Covered
 + CPU Virtualization
 + Process API in UNIX
 
@@ -42,10 +43,10 @@ gcc -o p2.out problem2.c
 ```
 
 # Project 2
-## Fields Covered
+## Topics Covered
 + Paging
 + Least Recently Used Algorithm
-+ Memeory Management
++ Memory Management
 
 ## Program Specifications
 In the LRU algorithm, the page being replaced from memory during a page fault is the one that
@@ -69,7 +70,7 @@ g++ lru.cpp -o lru
 ```
 
 # Project 3
-## Fields Covered
+## Topics Covered
 + Concurrency
 + Mutex Locks
 
@@ -95,6 +96,69 @@ gcc -o rwmain main.c reader_writer.c
 ```
 ./rwmain
 ```
+# Project 4
+## Topics Covered
++ File System
++ UNIX Utilities
+
+## Program Specifications
+**Program 1 (mystat)** imitates the comman linde program 'stat'. The program does that by calling the stat() system call on the specfied file or direecotry. Listing the file description: file size, number of blocks allocated, 
+reference (link) count, file permissions, and file inode. Just like the UNIX 'stat' cmd command would do.
+
+**Program 2 (mylist)** lists files in the given directory. When called without any 
+arguments, the program should just print the file names. When invoked with the -l flag, the program prints out information about each file, such as the owner, group, permissions, and other information obtained from the stat() system call. The program take one additional argument, which is the directory to read, e.g., mylist -l directory. If no directory is given, the program uses the current working directory.   
+
+**Program 3 (mylist)** prints out the last few lines of a file. When the user gives the specific number of lines from the end of the file.
+
+**Program 4 (mysearch)** prints out the names of each file and directory in the same file system tree. Starting at a given point in the tree.
+
+
+
+
+## How to compile and run on Command Line Interface  
+
+#### Compile mystat
+##### With make
+```
+make
+```
+##### Without Make
+```
+gcc -o <executable-file-name> myFile.c
+```
+##### Input example
+```
+gcc -o mystat.c mystat-Mohamed.c
+```
+----------------------------------------
+#### Run mystat
+****show stats of directory or file****
+->./mystat <directory_or_file_name>
+
+#### Run mylist
+*list file names in current directory*
+->./myls
+--------
+*list file names and stats of files in current directory*
+->./myls -l
+--------
+*list files names in specific directory given path*
+->./myls <directory_or_file_name>
+--------
+*list files names and stats in specific directory*
+->./myls -l <directory_or_file_name>
+----------------------------------------
+#### Run mytail
+*Print last # lines from buttom of a file*
+->./mytail <number-of-last-lines-from-bottom> <filename>
+----------------------------------------
+#### Run mytail
+*list files and content of subdirectories of current directory*
+->./mysearch 
+
+*list files and content of subdirectories of specified directory*
+->./mysearch <directory-relative-path>
+
 
 
 
