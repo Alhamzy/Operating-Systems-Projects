@@ -114,14 +114,14 @@ arguments, the program should just print the file names. When invoked with the -
 
 ## How to compile and run on Command Line Interface  
 
-#### Compile mystat
+#### Compile all files
 ##### With make
 ```
 make
 ```
 ##### Without Make
 ```
-gcc -o mystat.c mystat-Mohamed.c
+gcc -o <executable_file_name> <c_file_name>
 ```
 ----------------------------------------
 #### Run mystat
