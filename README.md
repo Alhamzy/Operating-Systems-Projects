@@ -17,28 +17,28 @@ The program uses 'fork()' to create processes and 'exec()' to assign the newly c
 ### Compile:
 ```
 gcc -o p1.out problem1.c
-'''
+```
 ### Run:
-'''
+```
 ./p1.out <insert_command_name_here> <insert_command_paramters_here>.
-'''
+```
 ### Input example:
-'''
+```
 ./p1.out ls -l
-'''
+```
 
 ## p2:
 ### Compile:
-'''
+```
 gcc -o p2.out problem2.c
-'''
+```
 ### Run:
-'''
+```
 ./p2.out <insert_first_command_here> "|" <insert_second_command_here> 
-'''
+```
 ### Input example:
-'''
+```
 ./p2.out ls "|" wc
-'''
+```
 
 
