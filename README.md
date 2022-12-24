@@ -41,7 +41,7 @@ gcc -o p2.out problem2.c
 ```
 ./p2.out ls "|" wc
 ```
-
+---------
 # Project 2
 ## Topics Covered
 + Paging
@@ -68,7 +68,7 @@ g++ lru.cpp -o lru
 ```
 ./lru bzip.trace 64 debug
 ```
-
+---------
 # Project 3
 ## Topics Covered
 + Concurrency
@@ -96,6 +96,7 @@ gcc -o rwmain main.c reader_writer.c
 ```
 ./rwmain
 ```
+-----------
 # Project 4
 ## Topics Covered
 + File System
@@ -129,22 +130,20 @@ gcc -o <executable_file_name> <c_file_name>
 ```
 ./mystat <directory_or_file_name>
 ```
+-------
 #### Run mylist
 *list file names in current directory*
 ```
 ./myls
 ```
---------
 *list file names and stats of files in current directory*
 ```
 ./myls -l
 ```
---------
 *list files names in specific directory given path*
 ```
 ./myls <directory_or_file_name>
 ```
---------
 *list files names and stats in specific directory*
 ```
 ./myls -l <directory_or_file_name>
