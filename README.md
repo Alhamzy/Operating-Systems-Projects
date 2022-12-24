@@ -112,9 +112,6 @@ arguments, the program should just print the file names. When invoked with the -
 
 **Program 4 (mysearch)** prints out the names of each file and directory in the same file system tree. Starting at a given point in the tree.
 
-
-
-
 ## How to compile and run on Command Line Interface  
 
 #### Compile mystat
@@ -124,41 +121,50 @@ make
 ```
 ##### Without Make
 ```
-gcc -o <executable-file-name> myFile.c
-```
-##### Input example
-```
 gcc -o mystat.c mystat-Mohamed.c
 ```
 ----------------------------------------
 #### Run mystat
 ****show stats of directory or file****
-->./mystat <directory_or_file_name>
-
+```
+./mystat <directory_or_file_name>
+```
 #### Run mylist
-*list file names in current directory*
-->./myls
+**list file names in current directory**
+```
+./myls
+```
 --------
 *list file names and stats of files in current directory*
-->./myls -l
+```
+./myls -l
+```
 --------
 *list files names in specific directory given path*
-->./myls <directory_or_file_name>
+```
+./myls <directory_or_file_name>
+```
 --------
 *list files names and stats in specific directory*
-->./myls -l <directory_or_file_name>
+```
+./myls -l <directory_or_file_name>
+```
 ----------------------------------------
 #### Run mytail
 *Print last # lines from buttom of a file*
-->./mytail <number-of-last-lines-from-bottom> <filename>
+```
+./mytail <number-of-last-lines-from-bottom> <filename>
+```
 ----------------------------------------
 #### Run mytail
 *list files and content of subdirectories of current directory*
-->./mysearch 
-
+```
+./mysearch 
+```
 *list files and content of subdirectories of specified directory*
-->./mysearch <directory-relative-path>
-
+```
+./mysearch <directory-relative-path>
+```
 
 
 
