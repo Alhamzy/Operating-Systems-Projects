@@ -130,7 +130,7 @@ gcc -o mystat.c mystat-Mohamed.c
 ./mystat <directory_or_file_name>
 ```
 #### Run mylist
-**list file names in current directory**
+*list file names in current directory*
 ```
 ./myls
 ```
@@ -156,7 +156,7 @@ gcc -o mystat.c mystat-Mohamed.c
 ./mytail <number-of-last-lines-from-bottom> <filename>
 ```
 ----------------------------------------
-#### Run mytail
+#### Run mysearch
 *list files and content of subdirectories of current directory*
 ```
 ./mysearch 
