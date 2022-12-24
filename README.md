@@ -70,9 +70,11 @@ g++ lru.cpp -o lru
 
 # Project 3
 ## Fields Covered
++ Concurrency
++ Mutex Locks
 
 ## Program Specifications
-
+Porgram that solves the readers and writers problem. While avoiding the starvation of either the reader and writer threads. This was done by adding a mutex lock on top of the conventional two mutex locks for each type of thread (reader or writer). Full overview of the code can be found in "Project 3" directory.
 ## How to compile and run on Command Line Interface  
 **Files that need to be in the directory before compiling**
 main.c
